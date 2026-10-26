@@ -6,9 +6,9 @@ English: This website contains teaching videos and a 30-step experiment guide. T
 
 ## 访问边界 / Access limitations
 
-中文：这是静态页面访问门槛，不是服务器端身份认证。视频与封面文件仍是公开资源，先前已公开的页面和仓库历史也不会因此变为私密内容。请勿将此页面用于存放敏感信息。完整实验仍在本地Unity软件与配套环境中运行。
+中文：这是静态页面访问门槛，不是服务器端身份认证。视频、封面、三维模型与运行代码仍是公开资源，先前已公开的页面和仓库历史也不会因此变为私密内容。请勿将此页面用于存放敏感信息。完整实验仍在本地Unity软件与配套环境中运行。
 
-English: This is a static-page access gate, not server-side authentication. Video and poster files remain public, and previously published pages and repository history do not become private. Do not store sensitive information here. The full experiment runs in local Unity software and the associated environment.
+English: This is a static-page access gate, not server-side authentication. Video, poster, 3D model and runtime code files remain public, and previously published pages and repository history do not become private. Do not store sensitive information here. The full experiment runs in local Unity software and the associated environment.
 
 ## 维护与部署 / Maintenance and deployment
 
@@ -19,3 +19,16 @@ English: Content updates require regenerating the encrypted entry from a non-pub
 GitHub Pages: Settings → Pages → Deploy from a branch → main → / (root).
 
 本地预览 / Local preview: python -m http.server 8767 --bind 127.0.0.1. Web Crypto requires HTTPS or a localhost origin.
+
+## 三维教学交互 / Interactive 3D teaching lab
+
+中文：登录后可进入30步三维教学交互。支持机床开关机、安全门、换刀、刀长测量、工件装夹、传感器安装与接线、工件坐标设定、点动、切削、工况比较、阈值预警、拆卸与清理。每步原始目标、详细操作、合理用时和赋分标准均保留。可暂停、停止、重播动作，选择观察视角及动画倍速，并导出本次网页演练记录。
+
+English: After login, visitors can use all 30 guided 3D teaching steps, including power, doors, tool changes, measurement, workholding, sensors and wiring, work coordinates, jogging, cutting, comparison, warning thresholds, disassembly and cleanup. Original goals, detailed instructions, suggested time and scoring criteria remain available. Animation controls, camera views, playback speed and local practice-record export are included.
+
+- 三维几何来自原Unity工程的机床、刀具、夹具和工件网格，经过轻量化后导出为约12MB的自包含GLB。单位为米，Y向上。门体和夹具运动幅度属于教学示意，未作工程标定。
+- Geometry comes from the original Unity machine, tool, fixture and workpiece meshes, optimized into a self-contained GLB of approximately 12 MB. Units are metres, Y-up. Door and fixture motion are illustrative and not engineering-calibrated.
+- 信号、振动、变形和预警由教学规则生成，不是实测数据、CAE结果或真实AI判读。网页不连接真实机床，演练完成状态不等于正式实验成绩。
+- Signals, vibration, deformation and warnings are rule-based teaching simulations, not measurements, CAE results or live AI inference. No real machine is connected, and local completion is not an official grade.
+- Runtime: Three.js 0.180.0 (MIT), bundled locally in assets/js/lab-3d.js; attribution in assets/js/THREE-LICENSE.txt. No external CDN is required.
+- assets/models/assembly-metadata.json documents source geometry, hierarchy, bounds and animation limitations.
