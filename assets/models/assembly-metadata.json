@@ -331,7 +331,7 @@
   },
   "motionHints": {
     "frontDoorOpenTranslation": [
-      -0.95,
+      0.95,
       0,
       0
     ],
