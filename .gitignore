@@ -1,0 +1,6 @@
+# Local coding tools and their executables; never website content.
+.agents/
+.codex/
+.impeccable/*
+!.impeccable/config.json
+node_modules/

@@ -16,6 +16,10 @@ English: This is a static-page access gate, not server-side authentication. Vide
 
 ## 维护与部署 / Maintenance and deployment
 
+中文：页面精修使用 Impeccable 4.8.0，安装范围、Codex 钩子与手动检查方式见 [IMPECCABLE.md](IMPECCABLE.md)。该工具仅用于开发维护，不是网页运行依赖。
+
+English: Interface refinement uses Impeccable 4.8.0. See [IMPECCABLE.md](IMPECCABLE.md) for installation scope, Codex hooks and manual checks. It is a development tool, not a website runtime dependency.
+
 中文：教学内容修改后，需要从非公开工作副本重新生成加密入口。不要将明文内容、账号密码或私密源文件提交到此仓库。原始步骤数据保存在非公开工作目录，不再以单独的公开JSON发布。
 
 English: Content updates require regenerating the encrypted entry from a non-public working copy. Do not commit plaintext content, credentials or private source files. Source step data is retained in the non-public working directory and is no longer published as separate JSON.
