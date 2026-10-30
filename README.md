@@ -1,5 +1,9 @@
 # 铣削数字孪生教学资源 / Machining Digital Twin Teaching Resources
 
+中文：项目描述、仪器设备、教学方法、结果分析、考核、学生要求、技术架构、运行要求、建设计划和项目特色已按项目团队提供的申报书补充文字。相关页面区分完整实验系统的教学设计与当前网页演示能力；建设计划和预期结果不作为本网站已完成的功能或新测量结果。
+
+English: Ten teaching sections have been expanded using the team's application document. The text distinguishes the full experiment design from this website's demonstration features; planned capabilities and expected observations are not presented as deployed services or newly measured results.
+
 中文：网站采用蓝白配色和橙色操作按钮的教学门户布局。首页保留项目简介、八个教学资源入口、四个实验模块入口、教学安排、服务团队和项目相关服务，正文在项目相关服务处结束。各栏目进入独立HTML页面；三维模型仅在三维实验页面加载。登录后在当前标签页切换栏目无需重复输入密码。登录页与教学内页共用 `assets/css/portal.css`；两个教学视频、三维实验功能与30步原始说明保留。
 
 English: The academic portal follows the user-selected WHUT reference. The homepage ends with related project services; each topic opens a separate HTML page. The 3D model loads only on the interactive lab page. Login persists while navigating within the current tab. The login and teaching pages share `assets/css/portal.css`. Both videos, the interactive 3D lab and all 30 original step descriptions are retained.

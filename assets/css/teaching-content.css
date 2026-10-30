@@ -1,0 +1,21 @@
+/* Reading layout for the existing portal's expanded teaching text. */
+.teaching-copy{max-width:850px;margin:0 auto;color:#334d66;font-size:15px;line-height:2}
+.teaching-copy p{margin:0 0 17px;overflow-wrap:break-word}
+.teaching-copy h3{font-size:19px;font-weight:500;color:#315d91;line-height:1.6;margin:30px 0 12px}
+.teaching-copy h3:first-child{margin-top:0}
+.teaching-copy strong{color:#244a74;font-weight:600}
+.teaching-copy a{color:#255e9e;text-decoration:underline;text-underline-offset:4px}
+.teaching-copy a:hover{color:#173e6b}
+.teaching-copy .teaching-note{background:#edf3f9;border:1px solid #d5e0ee;color:#415f80;padding:15px 18px;font-size:13px;line-height:1.9;margin:26px 0 0}
+.teaching-table-scroll{overflow-x:auto;margin:25px 0 30px;max-width:100%;scrollbar-color:#8fa9c9 #edf2f7}
+.teaching-table-scroll:focus-visible{outline:2px solid #4776b2;outline-offset:3px}
+.teaching-table{width:100%;min-width:560px;border-collapse:collapse;table-layout:fixed;font-size:14px;line-height:1.9}
+.teaching-table caption{text-align:left;font-size:16px;color:#315d91;padding:0 0 12px}
+.teaching-table th,.teaching-table td{border:1px solid #d8e2ed;padding:13px 15px;text-align:left;vertical-align:top;overflow-wrap:break-word}
+.teaching-table thead th{background:#e8f0f8;color:#2c537f;font-weight:500}
+.teaching-table thead th:first-child{width:24%}
+.teaching-schedule thead th:first-child{width:27%}
+.teaching-schedule thead th:nth-child(2){width:10%}
+.teaching-table tbody th{font-weight:500;color:#365a80;background:#f5f8fc;width:21%}
+.teaching-feature-copy{margin-top:36px;padding-top:30px;border-top:1px solid #dce5ef}
+@media(max-width:640px){.teaching-copy{font-size:14px;line-height:1.95}.teaching-copy h3{font-size:18px;margin-top:26px}.teaching-copy .teaching-note{padding:13px 14px}.teaching-table{font-size:13px}.teaching-table th,.teaching-table td{padding:11px 12px}.teaching-table caption:after{content:'表格可左右滑动';display:block;font-size:12px;color:#526b87;margin-top:5px}}
