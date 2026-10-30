@@ -4,9 +4,9 @@
 
 English: The academic portal follows the user-selected WHUT reference: a university crest header, blue introduction area, eight colored resource tiles, two-column experiment images, and a teacher team section. The login and teaching pages share `assets/css/portal.css`. Both videos, the interactive 3D lab and all 30 original step descriptions are retained.
 
-中文：首页结构与风格依据用户指定的[武汉理工大学虚拟仿真实验教学页面](https://xnfz.whut.edu.cn/cms/index_sn.html)，补充官方校徽及庄可佳、翁剑、高忠梅老师的公开教学照片；实验项目图片来自本平台实际三维场景。素材来源见 [ASSETS.md](ASSETS.md)。
+中文：首页结构与风格依据用户指定的[武汉理工大学虚拟仿真实验教学页面](https://xnfz.whut.edu.cn/cms/index_sn.html)，包含官方校徽、庄可佳老师的公开教学照片，以及项目团队提供的翁剑、高忠梅老师照片；实验项目图片来自本平台实际三维场景。素材来源见 [ASSETS.md](ASSETS.md)。
 
-English: The user-selected [WHUT virtual experiment page](https://xnfz.whut.edu.cn/cms/index_sn.html) defines the homepage structure and styling. The university crest and publicly available teaching portraits of Zhuang Kejia, Weng Jian and Gao Zhongmei are included. Experiment images show actual scenes from this platform. See [ASSETS.md](ASSETS.md) for provenance.
+English: The user-selected [WHUT virtual experiment page](https://xnfz.whut.edu.cn/cms/index_sn.html) defines the homepage structure and styling. It includes the university crest, Zhuang Kejia's public teaching portrait, and portraits of Weng Jian and Gao Zhongmei supplied by the project team. Experiment images show actual scenes from this platform. See [ASSETS.md](ASSETS.md) for provenance.
 
 中文：本网站包含教学视频和依据申报书整理的30步实验指导。当前入口使用浏览器端加密登录页，账号由项目团队提供；密码不以明文存放在公开代码中。登录仅在当前标签页会话中保持，可通过“退出登录”清除。
 
