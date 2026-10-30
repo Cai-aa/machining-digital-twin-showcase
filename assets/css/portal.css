@@ -163,3 +163,31 @@ html{scroll-padding-top:110px}body.portal-site,body.portal-login{font-family:"Mi
 .portal-footer .portal-container>div,.portal-footer p{font-size:12px}
 .portal-login .stat span{font-size:12px}
 .portal-login .input-wrap input::placeholder{color:#627187}
+/* Separate document navigation, retaining the approved WHUT portal style. */
+.portal-home .portal-hero{padding-top:36px}
+.portal-hero-title{font-size:clamp(12px,3.9vw,27px);line-height:1.6;font-weight:600;white-space:nowrap;letter-spacing:0;text-align:center;color:#fff;margin:0 0 30px}
+.portal-hero-grid{align-items:start}
+.portal-home .portal-hero-copy{padding-top:12px}
+.portal-home .portal-project-meta{margin-top:0}
+.portal-teacher>img{object-fit:contain;object-position:center bottom;background:#eaf0f5}
+.portal-breadcrumb{display:flex;gap:14px;padding-top:42px;padding-bottom:20px;font-size:13px;color:#667991;border-bottom:1px solid #e3e9ef}
+.portal-breadcrumb a{color:#3a6ba8}
+.portal-inner-page .portal-page-content{padding-top:32px;padding-bottom:40px;min-height:55vh}
+.portal-inner-page .portal-page-content>section{padding-bottom:35px}
+.portal-inner-page .portal-team{padding:0;background:none}
+.portal-inner-page .portal-team .portal-container{width:100%}
+.portal-inner-page .portal-page-content .portal-maintenance{width:100%;padding-top:0!important}
+.portal-standalone{font-size:15px;line-height:2;color:#4b6077}
+.portal-standalone ul{padding-left:22px}
+.portal-standalone a{color:#396cae;text-decoration:underline;text-underline-offset:4px}
+.portal-page-content .assessment{grid-template-columns:1fr}
+.portal-inner-page .portal-page-content .portal-hero-video{max-width:700px;margin:auto}
+.portal-inner-page .portal-logout.logout-button{top:100px}
+.portal-login .welcome h1{white-space:nowrap;font-size:clamp(10px,1.45vw,17px);letter-spacing:0;line-height:1.8}
+@media(max-width:800px){
+ .portal-hero-title{margin-bottom:24px}
+ .portal-breadcrumb{padding-top:25px}
+ .portal-inner-page .portal-logout.logout-button{top:auto}
+ .portal-home .portal-hero-copy{padding-top:0}
+ .portal-login .welcome h1{font-size:clamp(10px,2.7vw,17px)}
+}

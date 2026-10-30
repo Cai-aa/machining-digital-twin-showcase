@@ -1,5 +1,9 @@
 # 页面维护 / Interface maintenance
 
+中文：用户已明确要求独立页面导航。首页正文在“项目相关服务”处结束，完整项目标题保持一行，三位教师使用项目团队提供的照片，不展示照片来源说明。后续精修不得重新合并为长页面。三维模型仅在 `interactive-lab.html` 加载；各加密页面共同保留当前标签页登录状态。
+
+English: The user requires separate HTML documents for navigation. Homepage content ends at related project services; the full project title stays on one line. Use the three supplied portraits without an on-page source caption. Do not merge the site back into one long page. Load the 3D model only on `interactive-lab.html`, and preserve login across pages within the current tab.
+
 中文：此工作副本安装了 Impeccable 4.8.0。项目技能位于 `.agents/skills/impeccable`，Codex 用户级副本位于用户技能目录。官方安装器生成了 `.codex/hooks.json`；自动钩子需由用户在 Codex 的 `/hooks` 中批准。本次页面维护使用手动检查，不将“已生成配置”视为“钩子已运行”。新技能在下一轮对话可用。
 
 English: Impeccable 4.8.0 is installed in this checkout under `.agents/skills/impeccable`, with a user-level Codex copy as well. The official installer generated `.codex/hooks.json`. Approve the project hooks through Codex `/hooks` before relying on automatic checks. This maintenance pass uses manual verification; generated hook configuration does not prove execution. The newly installed skill becomes available on the next turn.
