@@ -2,7 +2,11 @@
 
 中文：页面采用蓝白配色和橙色操作按钮的教学门户布局，包含项目简介视频、八个教学资源入口、四个实验模块入口，以及服务团队、网络要求和项目架构说明。登录页与教学内页共用 `assets/css/portal.css`；两个教学视频、三维实验功能与30步原始说明保留。
 
-English: The academic portal uses a blue-and-white palette with orange action buttons. It includes the introduction video, eight teaching-resource links, four experiment-module entries, and team, browser/network and architecture information. The login and teaching pages share `assets/css/portal.css`. Both videos, the interactive 3D lab and all 30 original step descriptions are retained.
+English: The academic portal follows the user-selected WHUT reference: a university crest header, blue introduction area, eight colored resource tiles, two-column experiment images, and a teacher team section. The login and teaching pages share `assets/css/portal.css`. Both videos, the interactive 3D lab and all 30 original step descriptions are retained.
+
+中文：首页结构与风格依据用户指定的[武汉理工大学虚拟仿真实验教学页面](https://xnfz.whut.edu.cn/cms/index_sn.html)，补充官方校徽及庄可佳、翁剑、高忠梅老师的公开教学照片；实验项目图片来自本平台实际三维场景。素材来源见 [ASSETS.md](ASSETS.md)。
+
+English: The user-selected [WHUT virtual experiment page](https://xnfz.whut.edu.cn/cms/index_sn.html) defines the homepage structure and styling. The university crest and publicly available teaching portraits of Zhuang Kejia, Weng Jian and Gao Zhongmei are included. Experiment images show actual scenes from this platform. See [ASSETS.md](ASSETS.md) for provenance.
 
 中文：本网站包含教学视频和依据申报书整理的30步实验指导。当前入口使用浏览器端加密登录页，账号由项目团队提供；密码不以明文存放在公开代码中。登录仅在当前标签页会话中保持，可通过“退出登录”清除。
 

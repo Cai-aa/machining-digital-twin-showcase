@@ -4,9 +4,9 @@
 
 English: Impeccable 4.8.0 is installed in this checkout under `.agents/skills/impeccable`, with a user-level Codex copy as well. The official installer generated `.codex/hooks.json`. Approve the project hooks through Codex `/hooks` before relying on automatic checks. This maintenance pass uses manual verification; generated hook configuration does not prove execution. The newly installed skill becomes available on the next turn.
 
-中文：本项目是教学资源网站。保留学校教学门户的蓝白配色、导航、两个视频、三维操作及30步原始说明。精修时删减无意义英文与口号、重复图案和过度装饰，不删改申报书中的教学事实、评分标准，也不把演示信号写成真实测量或真实AI输出。工具、钩子、缓存不随网页发布；不在公开仓库存放账号密码、解密内容或原始Unity工程。
+中文：本项目的视觉依据由用户明确指定为 [武汉理工大学虚拟仿真实验教学参考页](https://xnfz.whut.edu.cn/cms/index_sn.html)。保留其居中门户结构、校徽页头、蓝色视频简介区、八个彩色资源入口、双栏图文实验项目和教师照片区；通用“去AI味”建议不得覆盖这些已确定的结构与风格。精修只改善阅读、响应式布局、可访问性和冗余表达。保留两个视频、三维操作及30步原始说明，不删改申报书中的教学事实、评分标准，也不把演示信号写成真实测量或真实AI输出。工具、钩子、缓存不随网页发布；不在公开仓库存放账号密码、解密内容或原始Unity工程。
 
-English: Preserve the academic portal's blue-and-white identity, navigation, two videos, 3D interactions and all 30 original descriptions. Remove decorative English, slogans, repetitive imagery and unnecessary ornament. Preserve teaching facts and assessment criteria, and keep simulated signals distinct from measurements or real AI output. Do not publish tools, hook runtime data, credentials, decrypted content or the private Unity source.
+English: The user explicitly selected the [WHUT virtual experiment reference page](https://xnfz.whut.edu.cn/cms/index_sn.html) as the visual authority. Preserve its centered portal structure, university crest header, blue video introduction, eight colored resource tiles, two-column illustrated experiment entries and teacher portraits. Generic anti-AI styling advice must not override these approved choices. Refine readability, responsive behavior, accessibility and redundant wording. Preserve both videos, the 3D interactions, all 30 original descriptions, teaching facts and assessment criteria. Keep simulated signals distinct from measurements or real AI output. Do not publish tools, hook runtime data, credentials, decrypted content or the private Unity source.
 
 本地检查 / Local check:
 
