@@ -1,5 +1,9 @@
 # 铣削数字孪生教学资源 / Machining Digital Twin Teaching Resources
 
+中文：页面采用蓝白配色和橙色操作按钮的教学门户布局，包含项目简介视频、八个教学资源入口、四个实验模块入口，以及服务团队、网络要求和项目架构说明。登录页与教学内页共用 `assets/css/portal.css`；两个教学视频、三维实验功能与30步原始说明保留。
+
+English: The academic portal uses a blue-and-white palette with orange action buttons. It includes the introduction video, eight teaching-resource links, four experiment-module entries, and team, browser/network and architecture information. The login and teaching pages share `assets/css/portal.css`. Both videos, the interactive 3D lab and all 30 original step descriptions are retained.
+
 中文：本网站包含教学视频和依据申报书整理的30步实验指导。当前入口使用浏览器端加密登录页，账号由项目团队提供；密码不以明文存放在公开代码中。登录仅在当前标签页会话中保持，可通过“退出登录”清除。
 
 English: This website contains teaching videos and a 30-step experiment guide. The entry uses a browser-side encrypted login gate. Credentials are supplied by the project team; the plaintext password is not stored in public code. The current tab session can be cleared using the logout button.
