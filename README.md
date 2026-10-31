@@ -4,9 +4,9 @@
 
 English: Ten teaching sections have been expanded using the team's application document. The text distinguishes the full experiment design from this website's demonstration features; planned capabilities and expected observations are not presented as deployed services or newly measured results.
 
-中文：网站采用蓝白配色和橙色操作按钮的教学门户布局。首页保留项目简介、八个教学资源入口、四个实验模块入口、教学安排、服务团队和项目相关服务，正文在项目相关服务处结束。各栏目进入独立HTML页面；三维模型仅在三维实验页面加载。登录后在当前标签页切换栏目无需重复输入密码。登录页与教学内页共用 `assets/css/portal.css`；两个教学视频、三维实验功能与30步原始说明保留。
+中文：网站采用蓝白配色和橙色操作按钮的教学门户布局。首页保留项目简介、八个教学资源入口、四个实验模块入口、教学安排和服务团队，正文在服务团队处结束；首页不展示项目相关服务汇总区。各栏目进入独立HTML页面；三维模型仅在三维实验页面加载。登录后在当前标签页切换栏目无需重复输入密码。登录页与教学内页共用 `assets/css/portal.css`；两个教学视频、三维实验功能与30步原始说明保留。
 
-English: The academic portal follows the user-selected WHUT reference. The homepage ends with related project services; each topic opens a separate HTML page. The 3D model loads only on the interactive lab page. Login persists while navigating within the current tab. The login and teaching pages share `assets/css/portal.css`. Both videos, the interactive 3D lab and all 30 original step descriptions are retained.
+English: The academic portal follows the user-selected WHUT reference. The homepage ends with the teacher team; the related-services summary is omitted. Each topic remains available on its own HTML page. The 3D model loads only on the interactive lab page. Login persists while navigating within the current tab. The login and teaching pages share `assets/css/portal.css`. Both videos, the interactive 3D lab and all 30 original step descriptions are retained.
 
 中文：首页结构与风格依据用户指定的[武汉理工大学虚拟仿真实验教学页面](https://xnfz.whut.edu.cn/cms/index_sn.html)，包含官方校徽及按用户指定版本展示的庄可佳、翁剑、高忠梅老师照片；实验项目图片来自本平台实际三维场景。素材来源见 [ASSETS.md](ASSETS.md)。
 
