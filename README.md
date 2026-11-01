@@ -48,3 +48,9 @@ English: After login, visitors can use all 30 guided 3D teaching steps, includin
 - Signals, vibration, deformation and warnings are rule-based teaching simulations, not measurements, CAE results or live AI inference. No real machine is connected, and local completion is not an official grade.
 - Runtime: Three.js 0.180.0 (MIT), bundled locally in assets/js/lab-3d.js; attribution in assets/js/THREE-LICENSE.txt. No external CDN is required.
 - assets/models/assembly-metadata.json documents source geometry, hierarchy, bounds and animation limitations.
+
+## 网络共享统计 / Network-sharing statistics
+
+中文：首页及团队页在教师区域下方展示累计浏览次数、实验使用人次和近7日趋势。浏览按教学页面访问记录，使用按同一标签页会话首次成功完成三维动作记录；从功能上线后真实累计，不填入示例历史数据。维护方式和数据口径见 [STATISTICS.md](STATISTICS.md)。
+
+English: Below the teacher team, the homepage and team page show shared page views, experiment-use sessions and a seven-day trend. Views count teaching-page loads; usage counts the first successful 3D action in a tab session. Collection starts at release, without invented history. See [STATISTICS.md](STATISTICS.md) for definitions and maintenance.
