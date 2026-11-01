@@ -51,6 +51,8 @@ English: After login, visitors can use all 30 guided 3D teaching steps, includin
 
 ## 网络共享统计 / Network-sharing statistics
 
+实验报告、网页操作分及人工报告成绩的本机保存、导出和汇总方式见 [REPORTS.md](REPORTS.md)。Report editing, local practice scoring, manual grading and export/import are documented in [REPORTS.md](REPORTS.md).
+
 中文：首页及团队页在教师区域下方展示累计浏览次数、实验使用人次和近7日趋势。浏览按教学页面访问记录，使用按同一标签页会话首次成功完成三维动作记录；从功能上线后真实累计，不填入示例历史数据。维护方式和数据口径见 [STATISTICS.md](STATISTICS.md)。
 
 English: Below the teacher team, the homepage and team page show shared page views, experiment-use sessions and a seven-day trend. Views count teaching-page loads; usage counts the first successful 3D action in a tab session. Collection starts at release, without invented history. See [STATISTICS.md](STATISTICS.md) for definitions and maintenance.
