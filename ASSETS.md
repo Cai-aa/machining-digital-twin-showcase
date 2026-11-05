@@ -6,3 +6,7 @@
 - 四个实验模块图片：本项目既有三维教学平台的场景截图，保存于 `assets/project-scenes/`，不是其他学校项目的实验画面。
 
 English: The university logo comes from the user-selected official reference site. Zhuang Kejia's portrait is the original PNG supplied and selected by the project team on October 31, 2026. Weng Jian's and Gao Zhongmei's portraits are original PNG files supplied by the project team on October 30, 2026. Project titles and duties follow the supplied 2026 application. Experiment thumbnails are screenshots of this project's existing 3D teaching lab. No contact numbers, birth dates or personal email addresses from the application are published.
+
+三维机床配色来自原 Unity 工程的 FBX 面材质和 `.mat` 文件，保留 93 个材质分区。原始颜色按 sRGB 转换为 glTF 线性基色；网页灯光与着色器的显示响应可能与 Unity 不同。机床静态部分按原材质边界进行网页用简化。模型采用 `EXT_meshopt_compression` 无损缓冲压缩，解码器为 meshoptimizer 1.3.0，遵循 [MIT 许可证](assets/vendor/meshoptimizer-LICENSE.md)。
+
+English: The machine's 93 material regions use colors from the original Unity project's FBX face materials and `.mat` files, with sRGB colors converted to linear glTF base colors. Browser lighting and shader response can differ from Unity. Static geometry is simplified within its original material boundaries. Lossless buffer compression uses `EXT_meshopt_compression` and the meshoptimizer 1.3.0 decoder under the [MIT license](assets/vendor/meshoptimizer-LICENSE.md).
