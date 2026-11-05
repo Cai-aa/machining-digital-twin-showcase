@@ -1,0 +1,66 @@
+/* Blue/slate controls complement the source machine's white, navy and orange. */
+.portal-content .lab-shell{--lab-blue:#315d99;--lab-ink:#344b68;--lab-muted:#64758c;--lab-line:#d6e0ec;--lab-soft:#eaf1fa;color:var(--lab-ink)}
+.portal-content .lab-topbar{background:#edf2f8;border-color:var(--lab-line)}
+.portal-content .lab-topbar span{color:var(--lab-muted)}
+.portal-content .lab-progress-track{background:#dae3ef}
+.portal-content .lab-progress-fill{background:#4d7db9}
+.portal-content .lab-stepnav{background:#f5f7fb;border-color:var(--lab-line);scrollbar-color:#9baec7 #edf2f8}
+.portal-content .lab-phase-title{color:#697d97}
+.portal-content .lab-step-button{color:#4b617e}
+.portal-content .lab-step-button:hover{background:#e5edf8}
+.portal-content .lab-step-button[aria-current="step"]{background:#294f83;color:#fff}
+.portal-content .lab-list-number{background:#e3ebf6;color:#42618d}
+.portal-content .lab-step-button[aria-current="step"] .lab-list-number{background:#dce9fc;color:#244c82}
+.portal-content .lab-step-button.is-completed .lab-list-number{background:#d7e5f8;color:#294f83}
+.portal-content .lab-list-check{color:#6891c7}
+.portal-content .lab-view-column,.portal-content .lab-state-strip{background:#142236}
+.portal-content .lab-loading{background:#142236;color:#dce8f8}
+.portal-content .lab-loading-bar{background:#344965}
+.portal-content .lab-loading-bar i{background:#84b4ec}
+.portal-content .lab-canvas-header{color:#e5edf8}
+.portal-content .lab-sim-tag{background:#17283edb;border-color:#647e9f;color:#e1ebf8}
+.portal-content .lab-model-label,.portal-content .lab-scene-caption{color:#c1cfdf}
+.portal-content .lab-hotspot{background:#e4efff;color:#234b80;border-color:#afc9ed;box-shadow:0 3px 10px #08142459;border-radius:6px}
+.portal-content .lab-hotspot::before{background:#447bb9}
+.portal-content .lab-hotspot:hover{background:#fff;border-color:#fff}
+.portal-content .lab-views{background:#1b2d45;border-color:#3d536e}
+.portal-content .lab-view-button{color:#d4e1f2;border-color:#617895}
+.portal-content .lab-view-button:hover,.portal-content .lab-view-button[aria-pressed="true"]{background:#dceaff;color:#234b80;border-color:#b8cff0}
+.portal-content .lab-speed-label{color:#c6d6eb}
+.portal-content .lab-speed-label select{background:#243953;color:#e2edfc;border-color:#647e9e}
+.portal-content .lab-signal{color:#d0dff2}
+.portal-content .lab-readouts,.portal-content .lab-state-strip{color:#b6c8e0}
+.portal-content .lab-readouts strong,.portal-content .lab-state-strip strong{color:#dfebfb}
+.portal-content .lab-readouts .is-alarm{color:#ffd29b}
+.portal-content .lab-control{border-color:var(--lab-line);scrollbar-color:#9baec7 #edf2f8}
+.portal-content .lab-step-kicker{color:#667d9a}
+.portal-content .lab-hint{color:#536a87}
+.portal-content .lab-field{color:#49607e}
+.portal-content .lab-field output{color:#315d99}
+.portal-content .lab-field input:not([type="range"]),.portal-content .lab-field select{background:#f8faff;border-color:#bccde3;color:#304d73}
+.portal-content .lab-field input[type="range"]{accent-color:#477ab9}
+.portal-content .lab-action{background:#edf3fc;color:#315d99;border-color:#cad9ee}
+.portal-content .lab-action:hover{background:#e0ebfa}
+.portal-content .lab-action.is-done{background:#f0f5fc;color:#456c9e;border-color:#c7d8ee}
+.portal-content .lab-feedback,.portal-content .lab-feedback.is-success{background:#edf3fc;color:#365c8d;border-color:#6f96cc}
+.portal-content .lab-feedback.is-error{background:#fff6ef;border-color:#cb9560;color:#965d32}
+.portal-content .lab-animation-controls button{background:#fff;color:#45658d;border-color:#bdcde2}
+.portal-content .lab-complete{background:#426da9;color:#fff;border-color:#426da9}
+.portal-content .lab-complete:disabled{background:#9bacc5;border-color:#9bacc5}
+.portal-content .lab-next{background:#fff;border-color:#b9cbe3;color:#315d99}
+.portal-content .lab-original{border-color:var(--lab-line)}
+.portal-content .lab-original summary{color:#47688f}
+.portal-content .lab-original dt{color:#6b809b}
+.portal-content .lab-original dd{color:#4e6582}
+.portal-content .lab-footer{background:#f2f6fc;border-color:var(--lab-line)}
+.portal-content .lab-footer p{color:#64758c}
+.portal-content .lab-footer button{color:#365e94}
+.portal-content .lab-open-step{background:#edf3fc;border-color:#bfcee3;color:#315d99}
+.portal-content .lab-shell :is(button,input,select,summary):focus-visible{outline:3px solid #81ade7;outline-offset:3px}
+.portal-content .lab-shell ::selection{background:#bed5f6;color:#173963}
+/* Keep the machine visible above each existing module title. */
+.portal-home .portal-picture-project{background:#142236;overflow:hidden}
+.portal-home .portal-picture-project>img{width:100%;height:100%;object-fit:cover;object-position:center}
+.portal-home .portal-picture-caption{top:auto;bottom:0;transform:none;background:#17283ee8;padding:16px 20px}
+.portal-home .portal-picture-caption strong{line-height:1.5}
+@media(max-width:700px){.portal-home .portal-picture-caption{padding:12px 16px}}
